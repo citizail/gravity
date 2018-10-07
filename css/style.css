@@ -168,7 +168,7 @@ header .navbar.navbar-light .nav-link.active {
 @media (max-width: 480px) {
   .site-hero .site-hero-inner {
     min-height: 350px;
-    height: 58vh;
+    height: 68vh;
   }
 }
 
@@ -195,6 +195,12 @@ header .navbar.navbar-light .nav-link.active {
   position: relative;
   margin-top: -100px;
   z-index: 9;
+}
+
+@media (max-width: 480px) {
+  .quick-info {
+  margin-top: -35px;
+}
 }
 
 .quick-info .bgcolor {
